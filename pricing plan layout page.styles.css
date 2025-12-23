@@ -1,3 +1,9 @@
+.pricing-container{
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
 h1{
 text-align: center;
 }
@@ -6,13 +12,6 @@ h2{
 font-size: 2em;
 font-family: Arial, sans-serif;
 }
-
-.pricing-container{
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid black;
-}
-
 
 .price{
   font-weight: 600;
@@ -25,7 +24,7 @@ hr{
   height: 1.5px;
   width: 100%;
   background-color: #ddd;
-  margin: 25px 0;
+  margin: -22px 0 25px 0;
 }
 
 .pricing-card{
