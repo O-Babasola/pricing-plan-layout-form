@@ -1,10 +1,31 @@
+h1{
+text-align: center;
+}
+
+h2{
+font-size: 2em;
+font-family: Arial, sans-serif;
+}
+
 .pricing-container{
   display: flex;
   flex-wrap: wrap;
+  border: 1px solid black;
 }
+
 
 .price{
   font-weight: 600;
+  font-size: 1.5rem;
+  font-family: Arial, sans-serif;
+}
+
+hr{
+  border: none;
+  height: 1.5px;
+  width: 100%;
+  background-color: #ddd;
+  margin: 25px 0;
 }
 
 .pricing-card{
@@ -13,6 +34,7 @@
   justify-content: space-between;
   flex: 0 0 200px;
   border: 2px solid black;
+  padding: 0 5px 0 15px;
 }
 
 .basic-plan{
@@ -28,3 +50,29 @@
   order: 2;
 }
 
+.included::before{
+  content: "✓ ";
+  font-weight: bold;
+  color: #16a34a;
+}
+
+.excluded::before{
+  content: "✘ ";
+  color: red;
+}
+
+.submit-btn{
+  cursor: pointer;
+  background: royalblue;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  display: block; 
+  margin: 35px 5px 10px 5px;
+}
+
+.submit-btn:hover{
+  background-color: #69e141;
+}
