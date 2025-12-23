@@ -3,6 +3,10 @@
   flex-wrap: wrap;
 }
 
+.price{
+  font-weight: 600;
+}
+
 .pricing-card{
   display: flex;
   flex-direction: column;
@@ -23,3 +27,4 @@
 .premium-plan{
   order: 2;
 }
+
