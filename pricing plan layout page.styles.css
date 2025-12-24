@@ -40,7 +40,7 @@ hr{
 
 .pricing-card:hover{
   background-color:  gainsboro;
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: transform 0.38s ease;
 }
 
@@ -83,4 +83,5 @@ hr{
 .submit-btn:hover{
   background-color: #69e141;
 }
+
 
