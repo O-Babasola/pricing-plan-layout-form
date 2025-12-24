@@ -38,6 +38,12 @@ hr{
   padding: 0 5px 0 15px;
 }
 
+.pricing-card:hover{
+  background-color:  gainsboro;
+  transform: scale(1.1);
+  transition: transform 0.38s ease;
+}
+
 .basic-plan{
   order: 0;
 }
@@ -77,3 +83,4 @@ hr{
 .submit-btn:hover{
   background-color: #69e141;
 }
+
